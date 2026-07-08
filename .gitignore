@@ -1,0 +1,44 @@
+# ── Gradle ──────────────────────────────────────
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# ── IDE ─────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+.nbattrs
+
+# ── Android ─────────────────────────────────────
+local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+app/build/
+app/release/
+captures/
+.externalNativeBuild/
+
+# ── OS ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ── Claude Code ───────────────────────────────────
+.claude/
+
+# ── Gradle Bootstrap (local) ──────────────────────
+.gradle-bootstrap/
+gradle/gradle-daemon-jvm.properties
+
+# ── Misc ────────────────────────────────────────
+*.log
+*.hprof
+*.stacktrace
+.env
+.secrets

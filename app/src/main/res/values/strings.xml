@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TimeLock</string>
+    <string name="accessibility_service_description">TimeLock 需要无障碍权限来实时监控前台应用切换，以便在应用超限时弹出锁屏界面。不会收集或分享任何个人信息。</string>
+</resources>
